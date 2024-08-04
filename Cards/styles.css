@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: aliceblue;
+    width: 270px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card h2{
+    text-align: center;
+}
+.card p{
+    padding: 10px;
+}
+.card-image{
+    background-color: yellow;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.car-1{
+    background-image: url('./images/ferrari.jpeg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.car-2{
+    background-image: url('./images/neymar.jpeg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.car-3{
+    background-image: url('./images/boeing.jpeg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card a{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(72, 72, 72);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all .5s ease;
+}
