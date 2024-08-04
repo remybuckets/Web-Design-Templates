@@ -2,23 +2,20 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;    
 }
 body{
     background: #f9f9f9;
-    min-height: 100vh; 
+    min-height: 100000px; 
     overflow-x: hidden;
     /* Min-Height and overflow-x */
 }
 header{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
     width: 100%;
-    padding: 30px 100px;
+    padding: 8vh 10px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     z-index: 100;
 }
@@ -34,7 +31,7 @@ header{
     color: #359381;
     padding: 6px 15px;
     border-radius: 20px;
-    margin: 0 20px;
+    margin: 0 0;
     font-weight: 600;
 }
 
